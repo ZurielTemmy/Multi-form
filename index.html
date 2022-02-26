@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form-one">
+            <h3>create account</h3>
+            <input type="text" placeholder="email" required>
+            <input type="password" placeholder="password">
+            <input type="password" placeholder="confirm password">
+            <div class="btn">
+                <button id="next-one">next</button>
+            </div>
+        </form>
+        <form id="form-two">
+            <h3>social links</h3>
+            <input type="text" placeholder="linkedin">
+            <input type="text" placeholder="github">
+            <input type="text" placeholder="twitter">
+            <div class="btn">
+                <button id="back-one">back</button>
+                <button id="next-two">next</button>
+            </div>
+        </form>
+        <form id="form-three">
+            <h3>personal info</h3>
+            <input type="text" placeholder="first name">
+            <input type="password" placeholder="last name">
+            <input type="password" placeholder="phone">
+            <div class="btn">
+                <button>back</button>
+                <button type="submit">submit</button>
+            </div>
+            
+        </form>
+        <div class="step-row">
+            <div id="progress"></div>
+                <div class="step-col"><small>step 1</small></div>
+                <div class="step-col"><small>step 2</small></div>
+                <div class="step-col"><small>step 3</small></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
